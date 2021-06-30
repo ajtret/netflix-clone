@@ -1,0 +1,50 @@
+.signin {
+  max-width: 300px;
+  padding: 70px;
+  margin-left: auto;
+  margin-right: auto;
+  background: rgba(0, 0, 0, 0.85);
+}
+
+.signin > form {
+  display: grid;
+  flex-direction: column;
+}
+
+.signin > form > input {
+  outline-width: 0;
+  height: 40px;
+  margin-bottom: 14px;
+  border-radius: 5px;
+  border: none;
+  padding: 5px 15px;
+}
+
+.signin > form > button {
+  font-weight: 600;
+  font-size: 1rem;
+  color: white;
+  background-color: red;
+  cursor: pointer;
+  border-radius: 5px;
+  border: none;
+  padding: 16px 20px;
+}
+ .text {
+     color: gray;
+ }
+
+ .signin>form>h4 {
+     text-align:"left" ;
+     font-size:.8rem;
+
+ }
+
+ .signin>form>h1 {
+     text-align: "left";
+ }
+
+ .linkage:hover{
+   cursor:pointer;
+   text-decoration: underline;
+ }
